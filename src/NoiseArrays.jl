@@ -1,5 +1,13 @@
 module NoiseArrays
 
-# Write your package code here.
+using RandomNoise
+using RandomNoise: noise_getindex, noise_convert
+using Distributions
+using CUDA
+
+include("noise_arrays.jl")
+include("distributions.jl")
+
+export NoiseArray
 
 end
