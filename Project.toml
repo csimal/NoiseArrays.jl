@@ -15,6 +15,7 @@ LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
 RandomNoise = "cdc879b2-80b7-4333-9dca-dc35859d33da"
 
 [compat]
+LinearOperators = "2"
 julia = "1"
 
 [extras]
